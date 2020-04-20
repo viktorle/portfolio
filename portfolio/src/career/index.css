@@ -31,3 +31,26 @@
   margin-top:10px;
   font-weight: bold;
 }
+
+.bars{
+  text-align: left;
+  padding-left: 10%;
+}
+.barContainer{
+  display:flex;
+  flex-direction: row;
+  color: white;
+}
+.bar {
+  width:50%;
+  height:50px;
+  background-color: aquamarine;
+  margin-bottom:10px;
+  animation-name: fadeAni;
+  animation-duration: 1s;
+}
+
+@keyframes fadeAni {
+  from {width:0%;}
+  to {width:50%;}
+}

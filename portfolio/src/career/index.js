@@ -14,7 +14,13 @@ class Career extends Component {
               Here are some of my <br />
               previous workplaces.
             </h1>
+            {/*<div className="infoContainer">
+              <div className="info">Currently studying: Master in Interactive Media Technology</div>
+              <div className="info">Months to graduation: 10</div>
+              <div className="info">Guitar picks in my pocket: 2</div>
+    </div>*/}
             <div className='row'>
+              
               <div className='subRow'>
                 <div className='jobs'>
                   <img
