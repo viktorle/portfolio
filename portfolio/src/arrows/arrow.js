@@ -6,7 +6,6 @@ let scroller = Scroll.scroller
 class Arrow extends Component {
   state = {}
   handleScroll(target) {
-    console.log(target)
     scroller.scrollTo(target, {
       duration: 500,
       delay: 100,

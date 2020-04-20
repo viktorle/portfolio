@@ -5,7 +5,6 @@ let scroller = Scroll.scroller
 class Menu extends Component {
   state = {}
   handleScroll(target) {
-    console.log(target)
     scroller.scrollTo(target, {
       duration: 500,
       delay: 100,
