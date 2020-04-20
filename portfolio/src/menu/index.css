@@ -4,6 +4,7 @@ header{
   background-color: #174DC8;
   position:fixed;
   z-index:1;
+  visibility: hidden;
 }
 
 ul{
@@ -21,4 +22,8 @@ li{
 li:hover{
   color:#C42068;
   transition: all 0.2s ease-in-out 0s;
+}
+
+.activeMenu{
+  visibility: visible;
 }

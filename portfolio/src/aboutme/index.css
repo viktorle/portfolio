@@ -1,0 +1,20 @@
+main{
+  min-height:100%;
+}
+
+.aboutMe_container{
+  width: 25%;
+}
+
+.lowerColumn{
+  background-color: #C42068;/*#6f7a8a;*/
+  height: 640px;
+  text-align: center;
+  display:flex;
+}
+
+.introText{
+  color:white;
+  text-align: left;
+  width:70%;
+}

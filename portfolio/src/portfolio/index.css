@@ -31,6 +31,11 @@
   border-radius: 20px;
   margin-bottom: 10px;
 }
+.portfolio img:hover{
+  background-color: black;
+  transition: all 0.2s ease-in-out 0s;
+  opacity: 40%;
+}
 
 .portfolio span{
   font-size:1em;
@@ -52,4 +57,14 @@ a:hover {
   margin-left:20px;
   font-weight: bold;
   text-decoration: azure;
+}
+
+@media only screen and (max-width: 600px) {
+  .row_portfolio{
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio img{
+    height:128px;
+  }
 }

@@ -12,8 +12,8 @@ class Experience extends Component {
         <div className='wrapper_experience'>
           <div className='container_experience'>
             <h1>
-              Things I'm most <br />
-              confident working with.
+              I'm most confident <br />
+              working with.
             </h1>
             <div className='row'>
               <div className='subRow'>
@@ -23,7 +23,7 @@ class Experience extends Component {
                     alt='viktor'
                     height={this.state.height}
                   />
-                  <span>React JS</span>
+                  <span>React and React Native</span>
                 </div>
                 <div className='experience'>
                   <img

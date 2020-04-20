@@ -11,7 +11,7 @@ class Education extends Component {
       <main>
         <div className='wrapper_education'>
           <div className='container_education'>
-            <h1>And here I have studied.</h1>
+            <h1>I have studied at.</h1>
             <div className='row_education'>
               <div className='education'>
                 <img

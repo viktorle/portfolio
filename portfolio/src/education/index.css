@@ -32,3 +32,13 @@
   margin-top:10px;
   font-size:1em;
 }
+
+@media only screen and (max-width: 600px) {
+  .row_education{
+    flex-direction: column;
+    align-items: center;
+  }
+  .education{
+    margin-bottom: 40px;
+  }
+}

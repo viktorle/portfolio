@@ -7,6 +7,7 @@ import Education from '../education'
 import Experience from '../experience'
 import Portfolio from '../portfolio'
 import Arrow from '../arrows/arrow'
+import AboutMe from '../aboutme'
 import * as Scroll from 'react-scroll'
 import handleMenuColor from './handleMenuColor'
 let Element = Scroll.Element
@@ -47,6 +48,7 @@ class Main extends Component {
           </div>
           <Arrow section={'Career'} />
         </div>
+
         <Element name='Career' />
         <Career />
 
