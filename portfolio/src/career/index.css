@@ -1,0 +1,33 @@
+.wrapper_career{
+  height:100%;
+  background-color:black;
+}
+.container_career{
+  padding-top:5%;
+  padding-bottom:5%;
+  display: flex;
+  flex-direction: column;
+}
+.container_career h1{
+  color:white;
+  font-size: 4em;
+  text-align: left;
+  padding-left: 10%;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top:50px;
+}
+.jobs{
+  display:flex;
+  flex-direction: column;
+  color:white;
+  width:256px;
+  align-items: center;
+}
+.jobs span{
+  margin-top:10px;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.contact{
+  min-height: 440px;
+  color: white;
+  justify-content: space-evenly;
+
+}
+
+.contact h1 {
+  color:white;
+  font-size: 4em;
+  padding-left:10%;
+  text-align: left;
+}
+
+p{
+  padding-left:10%;
+  text-align: left;
+
+  font-size: 2em;
+}
+
+a:link {
+  color: white;
+}
