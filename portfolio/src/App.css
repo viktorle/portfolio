@@ -2,10 +2,6 @@
   text-align: center;
   /*font-family: Montserrat;*/
 }
-@font-face {
-  font-family: Montserrat;
-  src: url(./font/Montserrat-Regular.ttf);
-}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
