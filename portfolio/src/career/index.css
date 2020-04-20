@@ -4,7 +4,7 @@
 }
 .container_career{
   padding-top:5%;
-  padding-bottom:5%;
+  padding-bottom:20%;
   display: flex;
   flex-direction: column;
 }
@@ -14,11 +14,11 @@
   text-align: left;
   padding-left: 10%;
 }
-.row{
+.row_career{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top:50px;
+ /* margin-top:50px;*/
 }
 .jobs{
   display:flex;
@@ -48,6 +48,12 @@
   margin-bottom:10px;
   animation-name: fadeAni;
   animation-duration: 1s;
+}
+.aboutMe{
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 18px;
 }
 
 @keyframes fadeAni {

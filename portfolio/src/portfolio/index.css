@@ -4,7 +4,7 @@
 }
 .container_portfolio{
   padding-top:5%;
-  padding-bottom:20%;
+  padding-bottom:5%;
   display: flex;
   flex-direction: column;
 }
@@ -24,12 +24,11 @@
   display:flex;
   flex-direction: column;
   color:white;
-  width:256px;
   align-items: center;
 }
 
 .portfolio img{
-  border-radius: 200px;
+  border-radius: 20px;
   margin-bottom: 10px;
 }
 
@@ -47,4 +46,10 @@ a:visited{
 a:hover {
   color:#C42068;
   transition: all 0.2s ease-in-out 0s;
+}
+
+.link{
+  margin-left:20px;
+  font-weight: bold;
+  text-decoration: azure;
 }

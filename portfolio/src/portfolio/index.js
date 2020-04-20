@@ -14,45 +14,30 @@ class Portfolio extends Component {
             <h1>Stuff I have done in school.</h1>
             <div className='row_portfolio'>
               <div className='portfolio'>
+              <h3>How much does KTH employees fly?</h3>
                 <a href="https://flight-kth.web.app/">
                 <img 
-                  src={require('../assets/pictures/flightViz.png')}
+                  src={require('../assets/pictures/iviz.png')}
                   alt='viktor'
                   height={this.state.height}
                 />
-                <span>Visualization of KTH employees flights</span>
                 </a>
+                <span>A visualization of KTH employees flights {/*<a className="link" href="https://flight-kth.web.app/">Link</a>*/}</span>
+                
               </div>
               <div className='portfolio'>
+              <h3>Estimate your travels carbon emission!</h3>
               <a href="https://carbon-calculator-d4d9b.web.app/">
                 <img
-                  src={require('../assets/pictures/carbCalc.png')}
+                  src={require('../assets/pictures/intp.png')}
                   alt='viktor'
                   height={this.state.height}
                 />
-                <span>A carbon calculator</span>
                 </a>
+                <span>A carbon calculator {/*<a className="link" href="https://carbon-calculator-d4d9b.web.app/">Link</a>*/}</span>
+                
               </div>
-              </div>
-              <div className='row_portfolio'>
-              <div className='portfolio'>
-                <img
-                  src={require('../assets/pictures/Flyingbear.jpg')}
-                  alt='viktor'
-                  height={this.state.height}
-                />
-                <span>A climate change game</span>
-              </div>
-              <div className='portfolio'>
-                <img
-                  src={require('../assets/pictures/chat.png')}
-                  alt='viktor'
-                  height={this.state.height}
-                />
-                <span>Classroom Chat</span>
-              </div>
-              </div>
-              
+              </div>    
           </div>
         </div>
       </main>

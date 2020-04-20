@@ -53,7 +53,7 @@ class Experience extends Component {
                 </div>
               </div>
             </div>
-            <h2 style={{marginTop: '100px'}}>
+            {/*<h2 style={{marginTop: '100px'}}>
               Things I also have <br />
               been working with.
             </h2>
@@ -131,8 +131,8 @@ class Experience extends Component {
                   />
                   <span>PHP</span>
                 </div>
-              </div>
             </div>
+            </div>*/}
           </div>
         </div>
       </main>
